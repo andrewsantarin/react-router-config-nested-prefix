@@ -87,11 +87,11 @@
     "build-watch": "rollup --config --watch",
     "install-all": "npm i && cd example && yarn && cd ..",
     "start-example": "cd example && npm start",
-    "deploy-example": "cd example && npm run deploy",
-    "develop": "concurrently --kill-others \"npm run build-watch\" \"npm run start-example\"",
+    "deploy-example": "cd example && yarn deploy",
+    "develop": "concurrently --kill-others \"yarn build-watch\" \"yarn start-example\"",
     "test": "jest --verbose ./src",
-    "pretest": "npm run build",
-    "prepublishOnly": "npm run build && npm run test"
+    "pretest": "yarn build",
+    "prepublishOnly": "yarn test"
   },
   "jest": {
     "modulePathIgnorePatterns": [
