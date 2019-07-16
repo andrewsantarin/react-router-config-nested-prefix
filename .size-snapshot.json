@@ -1,0 +1,40 @@
+{
+  "dist/index.cjs.js": {
+    "bundled": 45144,
+    "minified": 18361,
+    "gzipped": 3828
+  },
+  "dist/index.esm.js": {
+    "bundled": 44799,
+    "minified": 18071,
+    "gzipped": 3750,
+    "treeshaked": {
+      "rollup": {
+        "code": 16460,
+        "import_statements": 42
+      },
+      "webpack": {
+        "code": 17511
+      }
+    }
+  },
+  "dist\\index.cjs.js": {
+    "bundled": 45144,
+    "minified": 18361,
+    "gzipped": 3828
+  },
+  "dist\\index.esm.js": {
+    "bundled": 44799,
+    "minified": 18071,
+    "gzipped": 3750,
+    "treeshaked": {
+      "rollup": {
+        "code": 16460,
+        "import_statements": 42
+      },
+      "webpack": {
+        "code": 17511
+      }
+    }
+  }
+}
