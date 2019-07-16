@@ -1,7 +1,7 @@
 {
   "name": "react-router-config-recursive-prefixer",
   "version": "0.1.0-beta.1",
-  "description": "Automatically prefixes all of your react-router-config route tree paths with their parent paths... so that you don't have to!",
+  "description": "Prefixes all of your react-router-config route tree paths with their parent paths... so that you don't have to!",
   "license": "MIT",
   "keywords": [
     "react",
