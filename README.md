@@ -3,7 +3,7 @@
 A utility function which helps you recursively prefixes your routes with the parent path so that you don't need to type it by hand.
 
 ```js
-const rootRoutes = patchTreesRoutePath([
+const rootRoutes = patchTreesRoutePath([ // Your typical route tree below...
   {
     path: '/app',
     component: App,
@@ -37,14 +37,27 @@ const rootRoutes = patchTreesRoutePath([
 ```
 
 ## Installation
+You'll need React, React-Router (or its DOM or Native derivatives), React-Router-Config preinstalled in order to use this library.
 
 **NPM**
 ```sh
+# These are prerequisites
+npm install --save react
+npm install --save react-router # or react-router-dom... or react-router-native... they also import react-router, anyway
+npm install --save react-router-config
+
+# This library
 npm install --save react-router-config-recursive-prefixer
 ```
 
 **Yarn**
 ```sh
+# These are prerequisites
+yarn add react
+yarn add react-router # or react-router-dom... or react-router-native... they also import react-router, anyway
+yarn add react-router-config
+
+# This library
 yarn add react-router-config-recursive-prefixer
 ```
 
